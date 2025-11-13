@@ -107,7 +107,7 @@ Deploy your app for free with automatic HTTPS and no server management. Below is
 ##### Prerequisites
 
 - Hugging Face account (sign up: https://huggingface.co/join)
-- Google Generative AI API key (https://makersuite.google.com/app/apikey)
+- Google Generative AI API key (https://aistudio.google.com/)
 - (Optional) Git installed locally for Git-based deployment
 
 ##### Deployment Methods
