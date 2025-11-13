@@ -1,0 +1,25 @@
+name: job-search-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      # Core LangChain and LangGraph
+      - langchain==0.3.27
+      - langgraph==0.6.6
+      - langchain-google-genai==2.1.10
+
+      # User interface
+      - gradio>=4.44.0,<5.0.0
+      - huggingface_hub>=0.20.0,<0.23.0
+
+      # HTTP and async support
+      - httpx>=0.28.1
+      - anyio>=4.5
+      - python-dotenv>=1.0.0
+
+      # API requests and parsing
+      - requests>=2.31.0
+      - beautifulsoup4>=4.12.0
